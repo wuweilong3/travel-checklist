@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Data files (keep structure, ignore content)
+data/*.json
+!.gitkeep
+
+# Logs
+*.log
