@@ -12,7 +12,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "https://your-backend.railway.app/api/$1"
+      "dest": "https://travel-checklist-da82aa97.up.railway.app/api/$1"
     },
     {
       "src": "/(.*)",
