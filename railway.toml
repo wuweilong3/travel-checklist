@@ -1,6 +1,6 @@
-[build]
-builder = "python"
-root = "./backend"
+[nixpacks]
+python-version = "3.11"
 
-[deploy]
-start = "uvicorn api.routes:app --host 0.0.0.0 --port $PORT"
+[service]
+env = { PORT = "8000" }
+command = "uvicorn api.routes:app --host 0.0.0.0 --port $PORT"
