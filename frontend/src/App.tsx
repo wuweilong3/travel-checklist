@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { chatApi, Message, Trip, Checklist } from './services/api';
+import { chatApi, Message, Trip } from './services/api';
 import ChatInterface from './components/ChatInterface';
 import ChecklistView from './components/ChecklistView';
 import Sidebar from './components/Sidebar';
